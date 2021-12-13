@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: 5eccb511faa0f9fb4045f4c43a73d3376e5bed52
+PODS:
+  - ModuleA (0.0.1)
+  - ModuleA/Tests (0.0.1)
+
+DEPENDENCIES:
+  - ModuleA (from `Modules/ModuleA`)
+  - ModuleA/Tests (from `Modules/ModuleA`)
+
+EXTERNAL SOURCES:
+  ModuleA:
+    :path: Modules/ModuleA
+
+SPEC CHECKSUMS:
+  ModuleA: 5a0dff77d0438648bf93488466c3bad62c5f66d7
+
+PODFILE CHECKSUM: 3f47282335b5fcdf6271bda582d0c9b646ba8b2f
 
 COCOAPODS: 1.11.2

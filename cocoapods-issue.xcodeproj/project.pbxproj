@@ -103,6 +103,7 @@
 				F5FDA1CD2767B98900392195 /* Sources */,
 				F5FDA1CE2767B98900392195 /* Frameworks */,
 				F5FDA1CF2767B98900392195 /* Resources */,
+				31C226050B225D603A340A66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -160,6 +161,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		31C226050B225D603A340A66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cocoapods-issue/Pods-cocoapods-issue-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cocoapods-issue/Pods-cocoapods-issue-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cocoapods-issue/Pods-cocoapods-issue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		534D911BFE698F113E826A51 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

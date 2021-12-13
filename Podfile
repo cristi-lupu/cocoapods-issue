@@ -11,6 +11,8 @@ install! 'cocoapods',
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'cocoapods-issue' do
-	project 'cocoapods-issue'
-    workspace 'cocoapods-issue'
+  project 'cocoapods-issue'
+  workspace 'cocoapods-issue'
+
+  pod 'ModuleA', :path => 'Modules/ModuleA', :testspecs => ['Tests']
 end
