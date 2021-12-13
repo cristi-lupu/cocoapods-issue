@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '15.0'
 
   s.source                 = { :git => "git@github.com:cristi-lupu/cocoapods-issue.git", :tag => "#{s.version}" }
-  s.source_files           = ['Sources/**/*.swift']
+  s.source_files           = ['Sources/**/*.swift', 'workaround_project_structure']
   s.resource_bundles       = {
-    'ModuleA' => ['Sources/**/*.{storyboard,xib}']
+    'ModuleA' => ['Sources/**/*.{storyboard,xib}', 'workaround_project_structure']
   }
 
   s.static_framework       = true
